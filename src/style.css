@@ -5,12 +5,18 @@
 a {
   color: #fff !important;
   text-decoration: none !important;
+  padding: 10px 10px;
 }
 .active {
   color: #fff !important;
-  background: #000;
-  width: 80%;
-  padding: 7px 10px;
+  background: #1a1f37 !important;
+  /* padding: 7px 10px; */
   display: block;
   border-radius: 10px;
+}
+.bg-sidebar-color {
+  background-color: #070b28 !important;
+}
+.body-color {
+  background-color: #1b1b3b;
 }

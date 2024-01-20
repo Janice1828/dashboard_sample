@@ -22,51 +22,51 @@ const Sidebar = () => {
     },
   };
   return (
-    <div className="pb-4">
-      <ul className="list-group d-flex flex-direction gap-3 pt-3 pb-5">
-        <li className="list-group-item bg-danger border-0">
+    <div className="">
+      <ul className="list-group d-flex flex-direction gap-2 pt-3 pb-5">
+        <li className="list-group-item border-0 bg-sidebar-color text-light">
           <h5 className="">Vision Ui Free</h5>
         </li>
-        <li className="list-group-item bg-danger border-0">
+        <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/" className="d-flex gap-2 align-items-center">
             <IoHome style={style.iconStyle} />
             <span style={style.spanStyle}>Dashboard</span>
           </NavLink>
         </li>
-        <li className="list-group-item bg-danger border-0">
+        <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/tables" className="d-flex gap-2 align-items-center">
             <IoStatsChart style={style.iconStyle} />{" "}
             <span style={style.spanStyle}>Tables</span>
           </NavLink>
         </li>
-        <li className="list-group-item bg-danger border-0">
+        <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/billing" className="d-flex gap-2 align-items-center">
             <IoCard style={style.iconStyle} />
             <span style={style.spanStyle}> Billing</span>
           </NavLink>
         </li>
-        <li className="list-group-item bg-danger border-0">
+        <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/rtl" className="d-flex gap-2 align-items-center">
             <FaWrench style={style.iconStyle} />{" "}
             <span style={style.spanStyle}>RTL</span>
           </NavLink>
         </li>
-        <li className="list-group-item bg-danger border-0">
+        <li className="list-group-item bg-sidebar-color text-light border-0">
           <h4>Account Pages</h4>
         </li>
-        <li className="list-group-item bg-danger border-0">
+        <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/profile " className="d-flex gap-2 align-items-center">
             <FaUser style={style.iconStyle} />{" "}
             <span style={style.spanStyle}>Profile</span>
           </NavLink>
         </li>
-        <li className="list-group-item bg-danger border-0">
+        <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/signin" className="d-flex gap-2 align-items-center">
             <IoIosDocument style={style.iconStyle} />
             <span style={style.spanStyle}> Sign in</span>
           </NavLink>
         </li>
-        <li className="list-group-item bg-danger border-0">
+        <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/signup" className="d-flex gap-2 align-items-center">
             <IoIosRocket style={style.iconStyle} />{" "}
             <span style={style.spanStyle}>Sign up</span>
