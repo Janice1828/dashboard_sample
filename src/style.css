@@ -6,3 +6,11 @@ a {
   color: #fff !important;
   text-decoration: none !important;
 }
+.active {
+  color: #fff !important;
+  background: #000;
+  width: 80%;
+  padding: 7px 10px;
+  display: block;
+  border-radius: 10px;
+}
