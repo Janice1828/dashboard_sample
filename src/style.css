@@ -20,3 +20,6 @@ a {
 .body-color {
   background-color: #1b1b3b;
 }
+.navbarInput:checked {
+  background-color: red !important;
+}

@@ -25,7 +25,7 @@ const Sidebar = () => {
     <div className="">
       <ul className="list-group d-flex flex-direction gap-2 pt-3 pb-5">
         <li className="list-group-item border-0 bg-sidebar-color text-light">
-          <h5 className="">Vision Ui Free</h5>
+          <h6 className="font-italic">Vision Ui Free</h6>
         </li>
         <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/" className="d-flex gap-2 align-items-center">
@@ -52,7 +52,7 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li className="list-group-item bg-sidebar-color text-light border-0">
-          <h4>Account Pages</h4>
+          <h6 className="font-italic">Account Pages</h6>
         </li>
         <li className="list-group-item bg-sidebar-color border-0">
           <NavLink to="/profile " className="d-flex gap-2 align-items-center">
