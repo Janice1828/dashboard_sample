@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Table2 from "./Table2";
 
 const TableList = () => {
   return (
@@ -55,7 +54,7 @@ const TableList = () => {
         </div>
       </div>
       <div className="col-12 card bg-sidebar-color border-0 text-light">
-        <Table2 />
+        <div className="card-body">jenish</div>
       </div>
     </div>
   );
