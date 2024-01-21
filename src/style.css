@@ -23,3 +23,14 @@ a {
 .navbarInput:checked {
   background-color: red !important;
 }
+.reg-color {
+  color: #6a748b;
+}
+#t_test thead tr th,
+#t_test tbody tr td {
+  background: transparent !important;
+  color: #fff;
+}
+#t_test {
+  background-color: transparent !important;
+}

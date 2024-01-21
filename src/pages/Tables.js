@@ -1,16 +1,17 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar";
+import TableList from "../components/TableList";
 const Tables = () => {
   return (
     <div className="body-color ">
-      <div className="row container px-4 py-4">
-        <div
-          style={{ width: "22%" }}
-          className="text-light h-100vh bg-sidebar-color rounded-4"
-        >
+      <div className="row m-0 px-4 py-4">
+        <div className="col-2 text-light bg-sidebar-color rounded-4">
           <Sidebar />
         </div>
-        <div className="col-9 text-light">Tables</div>
+        <div className="col-10 text-light">
+          <TableList />
+        </div>
       </div>
     </div>
   );

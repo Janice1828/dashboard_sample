@@ -4,7 +4,7 @@ import { IoNotifications } from "react-icons/io5";
 import { useState } from "react";
 import { IoSearch } from "react-icons/io5";
 import { FaUser } from "react-icons/fa6";
-const Navbar = () => {
+const Navbar = (props) => {
   const style = {
     input: {
       borderRadius: "10px",
@@ -36,9 +36,9 @@ const Navbar = () => {
     <div className="d-flex justify-content-between bg-red">
       <div>
         <div>
-          Pages / <span className="fw-bold">Dashboard</span>
+          Pages / <span className="fw-bold">{props.header}</span>
         </div>
-        <div className="fw-bold">Dashboard</div>
+        <div className="fw-bold">{props.header}</div>
       </div>
       <div className="d-flex gap-3 align-items-center">
         <form style={style.form}>
