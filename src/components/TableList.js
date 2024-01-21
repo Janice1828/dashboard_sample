@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import { SlOptionsVertical } from "react-icons/sl";
 
 const TableList = () => {
   return (
@@ -9,7 +10,7 @@ const TableList = () => {
       <div className="col-12 card bg-sidebar-color border-0 text-light">
         <div className="card-body">
           <h5>Authors Table</h5>
-          <table className="table" id="t_test">
+          <table className="table t_test">
             <thead>
               <tr>
                 <th>AUTHOR</th>
@@ -54,7 +55,69 @@ const TableList = () => {
         </div>
       </div>
       <div className="col-12 card bg-sidebar-color border-0 text-light">
-        <div className="card-body">jenish</div>
+        <div className="card-body">
+          <div>
+            <h5 className="fw-bold">Projects Table</h5>
+            <p>
+              <span className="fw-bold">+30</span>&nbsp; this month
+            </p>
+          </div>
+          <table className="table t_test">
+            <thead>
+              <tr>
+                <th>COMPANIES</th>
+                <th>BUDGET</th>
+                <th>STATUS</th>
+                <th>COMPLETION</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Vision Ui Design</td>
+                <td>$14,000</td>
+                <td>Working</td>
+                <td>60%</td>
+                <td>
+                  <button
+                    type=""
+                    className="ouline-none border-0 bg-transparent text-light"
+                  >
+                    <SlOptionsVertical />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Add Progress Track</td>
+                <td>$30000</td>
+                <td>Canceled</td>
+                <td>10%</td>
+                <td>
+                  <button
+                    type=""
+                    className="ouline-none border-0 bg-transparent text-light"
+                  >
+                    <SlOptionsVertical />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Fix Platform errors</td>
+                <td>Not Set</td>
+                <td>Done</td>
+                <td>100%</td>
+                <td>
+                  <button
+                    type=""
+                    className="ouline-none border-0 bg-transparent text-light"
+                  >
+                    <SlOptionsVertical />
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
