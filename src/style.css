@@ -34,3 +34,11 @@ a {
 #t_test {
   background-color: transparent !important;
 }
+
+.nav-bg {
+  background-color: #161840 !important;
+}
+.signup-btn-color {
+  background-color: #7c4abb !important ;
+  color: #fff !important;
+}
