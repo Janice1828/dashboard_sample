@@ -131,12 +131,12 @@ const Dashboard = () => {
                 <span style={{ color: "#6a748b" }} className="fw-bold">
                   Welcome back,
                 </span>
-                <h3 className="mt-1 mb-1 fw-bolder">Mark Johnson</h3>
+                <h3 className="mt-1 mb-3 fw-bolder">Mark Johnson</h3>
                 <div
                   className="d-flex flex-column mt-1 mb-2"
                   style={{ color: "#6a748b" }}
                 >
-                  <h6>Glad to see you again!</h6>
+                  <h6 className="mb-0">Glad to see you again!</h6>
                   <h6>Ask me anything.</h6>
                 </div>
                 <button
@@ -149,7 +149,10 @@ const Dashboard = () => {
                     color: "#fff",
                   }}
                 >
-                  Tab to record <FaArrowRight style={{ color: "#6a748b" }} />
+                  Tab to record{" "}
+                  <FaArrowRight
+                    style={{ color: "#6a748b", marginLeft: "10px" }}
+                  />
                 </button>
               </div>
             </div>
@@ -160,10 +163,10 @@ const Dashboard = () => {
                 <h5 className="fw-bold">Satisfaction Rate</h5>
                 <p className="reg-color">From all Projects</p>
                 <div className="d-flex gap-5 justify-content-center mt-5 mb-3 body-color w-75 rounded-3 m-auto px-3 py-4">
-                  <div className="reg-color">0%</div>
-                  <div>
-                    <h5 className="text-center">95%</h5>
-                    <span>Based on likes</span>
+                  <h5 className="reg-color">0%</h5>
+                  <div className="border p-2 rounded-circle px-4 py-5">
+                    <h4 className="text-center fw-bolder">95%</h4>
+                    <h6>Based on likes</h6>
                   </div>
                   <div>100%</div>
                 </div>
@@ -171,9 +174,9 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="col-6">
-            <div className="card rounded-4 bg-sidebar-color text-light">
+            <div className="card rounded-4 bg-sidebar-color text-light p-4">
               <div className="card-body">
-                <div className="d-flex justify-content-between mb-4">
+                <div className="d-flex justify-content-between mb-5">
                   <h5 className="fw-bold">Referral Tracking</h5>
                   <span>
                     <button
@@ -190,22 +193,22 @@ const Dashboard = () => {
                   </span>
                 </div>
                 <div className="d-flex gap-5 align-items-center">
-                  <div className="d-flex flex-column gap-3">
-                    <div className="body-color px-3 py-2 rounded-4 d-flex flex-column align-items-center">
+                  <div className="d-flex flex-column gap-5">
+                    <div className="body-color px-5 py-2 rounded-4 d-flex flex-column align-items-center">
                       <span className="text-center reg-color mb-1 d-block">
                         Invited
                       </span>
-                      <h5>145 People</h5>
+                      <h6>145 People</h6>
                     </div>
                     <div className="body-color text-center py-2 rounded-4">
                       <span className="reg-color mb-1 d-block">Bonus</span>
                       <h5>1,465</h5>
                     </div>
                   </div>
-                  <div>
-                    <span className="reg-color">Safety</span>
-                    <h1>9.3</h1>
-                    <span className="reg-color">Total Score</span>
+                  <div className="border rounded-circle px-5 py-4">
+                    <h6 className="reg-color">Safety</h6>
+                    <h1 className="fw-bolder">9.3</h1>
+                    <h6 className="reg-color">Total Score</h6>
                   </div>
                 </div>
               </div>

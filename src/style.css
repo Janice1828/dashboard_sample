@@ -42,3 +42,9 @@ a {
   background-color: #7c4abb !important ;
   color: #fff !important;
 }
+.home-content {
+  width: 76% !important;
+}
+.sidebar {
+  width: 24% !important;
+}

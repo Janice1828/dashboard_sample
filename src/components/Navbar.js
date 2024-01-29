@@ -9,9 +9,8 @@ const Navbar = (props) => {
     input: {
       borderRadius: "10px",
       border: "1px solid #fff",
-      padding: "5px 10px ",
+      padding: "5px 0px 5px 35px ",
       color: "#fff",
-
       background: "transparent",
     },
     iconStyle: {
@@ -26,8 +25,8 @@ const Navbar = (props) => {
       background: " transparent",
       color: "#fff",
       border: "none",
-      top: "4px",
-      right: "175px",
+      top: "5px",
+      right: "190px",
     },
   };
 
