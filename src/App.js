@@ -4,7 +4,7 @@ import Home from "./Home";
 import Billing from "./pages/Billing";
 import Rtl from "./pages/Rtl";
 import Signup from "./pages/Signup";
-import Singin from "./pages/Singin";
+import Singin from "./pages/Signin";
 import Tables from "./pages/Tables";
 function App() {
   return (
