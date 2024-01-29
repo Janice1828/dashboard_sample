@@ -45,12 +45,6 @@ const Sidebar = () => {
             <span style={style.spanStyle}> Billing</span>
           </NavLink>
         </li>
-        <li className="list-group-item bg-sidebar-color border-0">
-          <NavLink to="/rtl" className="d-flex gap-2 align-items-center">
-            <FaWrench style={style.iconStyle} />{" "}
-            <span style={style.spanStyle}>RTL</span>
-          </NavLink>
-        </li>
         <li className="list-group-item bg-sidebar-color text-light border-0">
           <h6 className="font-italic">Account Pages</h6>
         </li>
