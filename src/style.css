@@ -26,7 +26,7 @@ a {
 .reg-color {
   color: #6a748b;
 }
-.t_test thead tr th,
+.t_test thead tr td,
 .t_test tbody tr td {
   background: transparent !important;
   color: #fff;
