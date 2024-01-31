@@ -8,17 +8,17 @@ const BillingContent = () => {
         <div className="col-8">
           <div className="row g-3">
             <div className="col-6 ">
-              <div className="card billing_color">
+              <div className="card billing_color text-light p-3 rounded-3">
                 <div className="card-body">
-                  <h5>Vision UI</h5>
-                  <h4>7812 2139 0823 xxxx</h4>
-                  <div className="d-flex">
+                  <h5 className="pb-5">Vision UI</h5>
+                  <h4 className="pb-3 pt-5">7812 2139 0823 xxxx</h4>
+                  <div className="d-flex gap-5">
                     <div>
-                      <p>VALID THRU</p>
+                      <p className="mb-0">VALID THRU</p>
                       <span className="fw-bolder">05/24</span>
                     </div>
                     <div>
-                      <p>CVV</p>
+                      <p className="mb-0">CVV</p>
                       <span>09x</span>
                     </div>
                   </div>
@@ -26,9 +26,9 @@ const BillingContent = () => {
               </div>
             </div>
             <div className="col-6">
-              <div className="card billing_color text-light">
+              <div className="card bg-sidebar-color text-light">
                 <div className="card-body">
-                  <div className="card bg-sidebar-color text-light">
+                  <div className="card bg-credit text-light">
                     <div className="card-body">
                       <div>
                         <p>Credit Balance</p>
@@ -40,10 +40,10 @@ const BillingContent = () => {
                     </div>
                   </div>
                   <div>
-                    <span>Newest</span>
-                    <div>
+                    <span className="pt-4 d-inline-block">Newest</span>
+                    <div className="d-flex justify-content-between">
                       <div>
-                        <p>Bill & Taxes</p>
+                        <p className="mb-0">Bill & Taxes</p>
                         <span>Today, 16:36</span>
                       </div>
                       <div>-$154.50</div>
