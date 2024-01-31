@@ -48,3 +48,6 @@ a {
 .sidebar {
   width: 24% !important;
 }
+.billing_color {
+  background-color: #0d40a2 !important;
+}
