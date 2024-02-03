@@ -24,7 +24,7 @@ const BillingContent = () => {
               <div className="card billing_color text-light p-3 rounded-3">
                 <div className="card-body">
                   <h5 className="pb-5">Vision UI</h5>
-                  <h4 className="pb-3 pt-5">7812 2139 0823 xxxx</h4>
+                  <h4 className="pb-3 pt-1">7812 2139 0823 xxxx</h4>
                   <div className="d-flex gap-5">
                     <div>
                       <p className="mb-0">VALID THRU</p>
@@ -86,7 +86,10 @@ const BillingContent = () => {
                       Add A New Card
                     </button>
                   </div>
-                  <div className="d-flex gap-2 mt-3">
+                  <div
+                    className="d-flex gap-2 mt-4 "
+                    style={{ paddingBottom: "13px" }}
+                  >
                     <div className="card w-100 billing_color text-light">
                       <div className="card-body">
                         <div className="d-flex justify-content-between">
@@ -311,7 +314,7 @@ const BillingContent = () => {
         <div className="col-4">
           <div className="card bg-sidebar-color text-light">
             <div className="card-body">
-              <div className="d-flex justify-content-between">
+              <div className="d-flex pb-4 pt-3 justify-content-between">
                 <h5 className="fw-bolder">Your Transactions</h5>
                 <p className="date_style ">23-30 March 2021</p>
               </div>
