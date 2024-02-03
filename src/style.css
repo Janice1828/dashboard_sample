@@ -60,3 +60,18 @@ a {
 .welcome_bg {
   background-color: #803fff !important;
 }
+.invoices_span {
+  color: #6a748b;
+  font-size: 14px;
+  font-weight: 500;
+}
+.fs-7 {
+  font-size: 14px !important;
+}
+.details_color {
+  color: #848ea6 !important;
+}
+.date_style {
+  color: #848ea6 !important;
+  font-size: 15px;
+}
