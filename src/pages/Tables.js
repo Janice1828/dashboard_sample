@@ -5,11 +5,14 @@ import TableList from "../components/TableList";
 const Tables = () => {
   return (
     <div className="body-color ">
-      <div className="row w-100 m-0 g-0 px-4 py-4">
-        <div className="sidebar text-light h-100vh bg-sidebar-color rounded-4">
+      <div className="row w-100 m-0 gx-0 px-4 py-4">
+        <div
+          className="col-2 text-light h-100 bg-sidebar-color rounded-4 position-sticky"
+          style={{ top: "30px" }}
+        >
           <Sidebar />
         </div>
-        <div className="home-content text-light">
+        <div className="col-10 text-light">
           <TableList />
         </div>
       </div>

@@ -22,12 +22,12 @@ const Sidebar = () => {
     },
   };
   return (
-    <div className="">
+    <div className="h-100">
       <ul className="list-group d-flex flex-direction gap-2 pt-3 pb-5">
         <li className="list-group-item border-0 bg-sidebar-color text-light">
           <h5 className="font-italic text-center">Vision Ui Free</h5>
         </li>
-        <li className="list-group-item bg-sidebar-color border-0">
+        <li className="list-group-item bg-sidebar-color h-100 border-0">
           <NavLink
             to="/"
             className="d-flex justify-content-between align-items-center"
