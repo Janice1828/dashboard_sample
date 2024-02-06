@@ -7,6 +7,7 @@ import { FaWrench } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
 import { IoIosDocument } from "react-icons/io";
 import { IoIosRocket } from "react-icons/io";
+import logo from "../img/Untitled.png";
 const Sidebar = () => {
   const style = {
     iconStyle: {
@@ -20,12 +21,16 @@ const Sidebar = () => {
     spanStyle: {
       fontWeight: "700",
     },
+    logoStyle: {
+      // height: "40px",
+      width: "100%",
+    },
   };
   return (
     <div className="h-100">
       <ul className="list-group d-flex flex-direction gap-2 pt-3 pb-5">
         <li className="list-group-item border-0 bg-sidebar-color text-light">
-          <h5 className="font-italic text-center">Vision Ui Free</h5>
+          <img src={logo} alt="Logo" style={style.logoStyle} />
         </li>
         <li className="list-group-item bg-sidebar-color h-100 border-0">
           <NavLink
@@ -55,7 +60,7 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li className="list-group-item bg-sidebar-color text-light border-0">
-          <h5 className="font-italic">Account Pages</h5>
+          <h5 className="font-italic fw-bolder">Account Pages</h5>
         </li>
         <li className="list-group-item bg-sidebar-color border-0">
           <NavLink
@@ -75,7 +80,7 @@ const Sidebar = () => {
             <IoIosDocument style={style.iconStyle} />
           </NavLink>
         </li>
-        <li className="list-group-item bg-sidebar-color border-0">
+        <li className="list-group-item bg-sidebar-color border-0 pb-5">
           <NavLink
             to="/signup"
             className="d-flex justify-content-between align-items-center"

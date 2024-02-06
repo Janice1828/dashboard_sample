@@ -49,16 +49,16 @@ a {
   width: 24% !important;
 }
 .billing_color {
-  background-color: #0d40a2 !important;
+  background-color: #021945 !important;
 }
 .bg-credit {
   background-color: #1f264b !important;
 }
 .profile-bg {
-  background-color: #3234a9 !important;
+  background-color: #1d1e4b !important;
 }
 .welcome_bg {
-  background-color: #803fff !important;
+  background-color: #3d2372 !important;
 }
 .invoices_span {
   color: #6a748b;
@@ -78,4 +78,10 @@ a {
 .project {
   color: #848ea6 !important;
   font-size: 13px;
+}
+.sidebar {
+  width: 20% !important;
+}
+.main_content {
+  width: 80% !important;
 }

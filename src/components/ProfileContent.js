@@ -164,8 +164,8 @@ const ProfileContent = () => {
             </div>
           </div>
         </div>
-        <div className="col-3">
-          <div className="card profile-bg text-light">
+        <div className="col-4">
+          <div className="card profile-bg text-light p-2">
             <div className="card-body">
               <h5 className="fw-bold pb-3">Platform Settings</h5>
               <p className="date_style">Account</p>
@@ -255,7 +255,7 @@ const ProfileContent = () => {
                     Subscribe to newsletter
                   </label>
                 </div>
-                <div class="form-check form-switch">
+                <div class="form-check form-switch pb-2">
                   <input
                     class="form-check-input"
                     type="checkbox"
@@ -273,12 +273,12 @@ const ProfileContent = () => {
             </div>
           </div>
         </div>
-        <div className="col-9">
+        <div className="col-8">
           <div className="card profile-bg text-light">
             <div className="card-body">
               <h5 className="fw-bold">Projects</h5>
               <p className="date_style">Architects design houses</p>
-              <div className="d-flex gap-1">
+              <div className="d-flex gap-2">
                 <div className="card bg-sidebar-color text-light">
                   <div className="card-body">
                     <img
@@ -300,27 +300,7 @@ const ProfileContent = () => {
                     </div>
                   </div>
                 </div>
-                <div className="card bg-sidebar-color text-light">
-                  <div className="card-body">
-                    <img
-                      src={car_two}
-                      alt="Image"
-                      width="100%"
-                      className="rounded-3"
-                    />
-                    <span className="project ">Project #2</span>
-                    <h5 className="fw-bold">Scandinavian</h5>
-                    <p className="date_style ">
-                      Music is something that every person has his or her own
-                      specific opinion about.
-                    </p>
-                    <div>
-                      <button type="" className="btn btn-outline-light">
-                        View all
-                      </button>
-                    </div>
-                  </div>
-                </div>
+
                 <div className="card bg-sidebar-color text-light">
                   <div className="card-body">
                     <img

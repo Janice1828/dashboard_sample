@@ -7,12 +7,12 @@ const Tables = () => {
     <div className="body-color ">
       <div className="row w-100 m-0 gx-0 px-4 py-4">
         <div
-          className="col-2 text-light h-100 bg-sidebar-color rounded-4 position-sticky"
+          className="sidebar text-light h-100 bg-sidebar-color rounded-4 position-sticky"
           style={{ top: "30px" }}
         >
           <Sidebar />
         </div>
-        <div className="col-10 text-light">
+        <div className="main_content text-light">
           <TableList />
         </div>
       </div>
