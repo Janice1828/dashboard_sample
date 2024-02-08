@@ -28,11 +28,19 @@ const Navbar = (props) => {
       top: "5px",
       right: "190px",
     },
+    nav: {
+      padding: "0px 20px 20px 20px",
+      background: "#1b1b3b",
+      zIndex: 1,
+    },
   };
 
   const [search, setSearch] = useState("");
   return (
-    <div className="d-flex justify-content-between bg-red">
+    <div
+      className="d-flex justify-content-between position-sticky top-0 z-1"
+      style={style.nav}
+    >
       <div>
         <div>
           Pages / <span className="fw-bold">{props.header}</span>
