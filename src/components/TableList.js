@@ -12,7 +12,7 @@ const TableList = () => {
   return (
     <div className="ps-5">
       <Navbar header="Tables" />
-      <div className="pt-5">
+      <div className="pt-0">
         <div className="row gy-3 w-100 m-auto">
           <div className="col-12 card bg-sidebar-color border-0 text-light">
             <div className="card-body">

@@ -35,7 +35,7 @@ const Dashboard = () => {
   return (
     <div className="ps-5">
       <Navbar header="Dashboard" />
-      <div className="pt-5">
+      <div className="pt-3">
         <div className="row gy-3">
           <div className="col-3">
             <div className="card rounded-4 bg-sidebar-color text-light">

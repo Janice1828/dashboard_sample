@@ -17,7 +17,7 @@ const BillingContent = () => {
   return (
     <div className="ps-5">
       <Navbar header="Dashboard" />
-      <div className="pt-5">
+      <div className="pt-3">
         <div className="row gy-3">
           <div className="col-8">
             <div className="row g-3">
