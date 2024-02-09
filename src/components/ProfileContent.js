@@ -17,7 +17,7 @@ const ProfileContent = () => {
   return (
     <div className="ps-5">
       <Navbar header="Profile" className="col-12" />
-      <div className="row pt-4 g-3">
+      <div className="row pt-4 g-3 w-100 m-auto">
         <div className="col-12 d-flex justify-content-between profile-bg py-4 px-4 rounded-4">
           <div className="d-flex gap-2 align-items-center ">
             <img src={profile} alt="" height="60px" className="rounded-3" />

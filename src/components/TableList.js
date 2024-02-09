@@ -13,11 +13,11 @@ const TableList = () => {
     <div className="ps-5">
       <Navbar header="Tables" />
       <div className="pt-5">
-        <div className="row gy-3">
+        <div className="row gy-3 w-100 m-auto">
           <div className="col-12 card bg-sidebar-color border-0 text-light">
             <div className="card-body">
               <h5 className="fw-bolder">Authors Table</h5>
-              <table className="table t_test">
+              <table className="table t_test p-0">
                 <thead>
                   <tr>
                     <td>AUTHOR</td>
