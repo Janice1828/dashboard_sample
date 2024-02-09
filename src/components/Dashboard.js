@@ -33,11 +33,13 @@ const Dashboard = () => {
     },
   };
   return (
-    <div className="ps-5">
-      <Navbar header="Dashboard" />
+    <div className="ps-xl-5">
+      <div className="d-none d-lg-block">
+        <Navbar header="Dashboard" />
+      </div>
       <div className="pt-3">
         <div className="row gy-3">
-          <div className="col-3">
+          <div className="col-lg-3 col-6">
             <div className="card rounded-4 bg-sidebar-color text-light">
               <div className="card-body ">
                 <p className="card-text d-flex justify-content-between align-items-center">
@@ -59,7 +61,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-6">
             <div className="card rounded-4 bg-sidebar-color text-light">
               <div className="card-body ">
                 <p className="card-text d-flex justify-content-between align-items-center">
@@ -81,7 +83,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-6">
             <div className="card rounded-4 bg-sidebar-color text-light">
               <div className="card-body ">
                 <p className="card-text d-flex justify-content-between align-items-center">
@@ -103,7 +105,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-6">
             <div className="card rounded-4 bg-sidebar-color text-light">
               <div className="card-body ">
                 <p className="card-text d-flex justify-content-between align-items-center">
@@ -157,7 +159,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-lg-6">
             <div className="card rounded-4 bg-sidebar-color text-light">
               <div className="card-body">
                 <h5 className="fw-bold">Satisfaction Rate</h5>
@@ -173,7 +175,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6 col-12">
             <div className="card rounded-4 bg-sidebar-color text-light p-4">
               <div className="card-body">
                 <div className="d-flex justify-content-between mb-5">
@@ -217,7 +219,7 @@ const Dashboard = () => {
           {/* for charts these two columns */}
           {/* <div className="col-7">f</div>
           <div className="col-5">f</div> */}
-          <div className="col-8">
+          <div className="col-lg-8 col-12">
             <div className="card rounded-4 bg-sidebar-color text-light">
               <div className="card-body">
                 <h5 className="fw-bold">Projects</h5>
@@ -255,7 +257,7 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-lg-4 col-12">
             <div className="card rounded-4 bg-sidebar-color text-light">
               <div className="card-body">
                 <div>

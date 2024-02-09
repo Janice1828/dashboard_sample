@@ -10,8 +10,10 @@ import table_img_b from "../img/table_img_b.jpg";
 import table_img_c from "../img/table_img_c.jpg";
 const TableList = () => {
   return (
-    <div className="ps-5">
-      <Navbar header="Tables" />
+    <div className="ps-xl-5">
+      <div className="d-none d-lg-block">
+        <Navbar header="Tables" />
+      </div>
       <div className="pt-0">
         <div className="row gy-3 w-100 m-auto">
           <div className="col-12 card bg-sidebar-color border-0 text-light">

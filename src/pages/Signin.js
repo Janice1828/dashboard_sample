@@ -26,7 +26,7 @@ const Singin = () => {
   return (
     <div>
       <div
-        className="nav-bg position-fixed px-3 py-4 rounded-4 bg-sidebar-color w-75 m-auto text-center d-flex justify-content-between align-items-center
+        className="d-xl-inline-flex d-none nav-bg position-fixed px-3 py-4 rounded-4 bg-sidebar-color w-75 m-auto text-center d-flex justify-content-between align-items-center
       "
         style={{
           top: "50px",
@@ -62,7 +62,7 @@ const Singin = () => {
         </div>
       </div>
       <div className="row gx-0 gy-0 position-relative">
-        <div className="col-6 position-relative">
+        <div className="col-6 d-xl-block d-none position-relative">
           <img
             src={Img}
             alt="Image"
@@ -70,7 +70,7 @@ const Singin = () => {
             style={{ filter: "brightness(55%)" }}
           />
           <div
-            className="position-absolute"
+            className="position-absolute "
             style={{ top: "50%", left: "10%", color: "#fff" }}
           >
             <h5
@@ -84,7 +84,7 @@ const Singin = () => {
             </h2>
           </div>
         </div>
-        <div className="col-6 row gx-0 gap-3 pt-5 pb-5 align-items-center bg-sidebar-color text-light">
+        <div className="col-12 col-xl-6 row gx-0 gap-3 pt-5 pb-5 align-items-center bg-sidebar-color text-light">
           <div className="col-12 mb-0 pt-5 mt-5 text-center">
             <div className="pt-5">
               <h2 className="fw-bolder mb-0">Nice To See You!</h2>

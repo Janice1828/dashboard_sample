@@ -26,7 +26,7 @@ const Signup = () => {
   return (
     <div>
       <div
-        className="nav-bg position-fixed px-3 py-4 rounded-4 bg-sidebar-color w-75 m-auto text-center d-flex justify-content-between align-items-center
+        className="d-xl-inline-flex d-none nav-bg position-fixed px-3 py-4 rounded-4 bg-sidebar-color w-75 m-auto text-center d-flex justify-content-between align-items-center
         "
         style={{
           top: "50px",
@@ -62,7 +62,7 @@ const Signup = () => {
         </div>
       </div>
       <div className="row gx-0 gy-0 position-relative">
-        <div className="col-6 position-relative">
+        <div className="col-6 d-none d-xl-block position-relative">
           <img
             src={Img}
             alt="Image"
@@ -77,7 +77,7 @@ const Signup = () => {
             <h2 className="fw-bolder">THE VISION UI DASHBOARD</h2>
           </div>
         </div>
-        <div className="col-6 row gx-0 gap-3 pt-5 pb-5 align-items-center bg-sidebar-color text-light">
+        <div className="col-12 col-xl-6 row gx-0 gap-3 pt-5 pb-5 align-items-center bg-sidebar-color text-light">
           <div className="col-12 mb-0 pt-5 mt-5 text-center">
             <div className="pt-5">
               <h2 className="fw-bolder mb-0">Welcome</h2>

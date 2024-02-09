@@ -15,13 +15,15 @@ import { FaRegTrashCan } from "react-icons/fa6";
 import Navbar from "./Navbar";
 const BillingContent = () => {
   return (
-    <div className="ps-5">
-      <Navbar header="Dashboard" />
+    <div className="ps-xl-5">
+      <div className="d-none d-lg-block">
+        <Navbar header="Dashboard" />
+      </div>
       <div className="pt-3">
         <div className="row gy-3">
-          <div className="col-8">
+          <div className="col-12 col-xl-8">
             <div className="row g-3">
-              <div className="col-6 ">
+              <div className="col-md-6 col-12 ">
                 <div className="card billing_color text-light p-3 rounded-3">
                   <div className="card-body">
                     <h5 className="pb-5">Vision UI</h5>
@@ -39,7 +41,7 @@ const BillingContent = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-md-6 col-12">
                 <div className="card bg-sidebar-color text-light">
                   <div className="card-body">
                     <div className="card bg-credit text-light">
@@ -135,7 +137,7 @@ const BillingContent = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-xl-4 col-12">
             <div className="card bg-sidebar-color text-light">
               <div className="card-body row gy-4">
                 <h5 className="fw-bolder col-7">Invoices</h5>
@@ -202,7 +204,7 @@ const BillingContent = () => {
               </div>
             </div>
           </div>
-          <div className="col-8">
+          <div className="col-xl-8 col-12">
             <div className="card bg-sidebar-color text-light">
               <div className="card-body">
                 <h5 className="mb-4">Billing Information</h5>
@@ -316,7 +318,7 @@ const BillingContent = () => {
               </div>
             </div>
           </div>
-          <div className="col-4">
+          <div className="col-xl-4 col-12">
             <div className="card bg-sidebar-color text-light">
               <div className="card-body">
                 <div className="d-flex pb-4 pt-3 justify-content-between">

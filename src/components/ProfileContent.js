@@ -15,8 +15,10 @@ import { FaPenFancy } from "react-icons/fa";
 
 const ProfileContent = () => {
   return (
-    <div className="ps-5">
-      <Navbar header="Profile" className="col-12" />
+    <div className="ps-xl-5">
+      <div className="d-none d-lg-block">
+        <Navbar header="Profile" className="col-12" />
+      </div>
       <div className="row pt-3 g-3 w-100 m-auto">
         <div className="col-12 d-flex justify-content-between profile-bg py-4 px-4 rounded-4">
           <div className="d-flex gap-2 align-items-center ">
@@ -40,7 +42,7 @@ const ProfileContent = () => {
             </button>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-12 col-lg-6">
           <div className="card welcome_bg text-light">
             <div className="card-body">
               <h3 className="fw-bolder">Welcome Back!</h3>
@@ -62,7 +64,7 @@ const ProfileContent = () => {
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-12 col-lg-6">
           <div className="card profile-bg text-light">
             <div className="card-body">
               <h5 className="fw-bolder pb-3">Profile Information</h5>
@@ -106,15 +108,8 @@ const ProfileContent = () => {
               <p className="details_color">
                 Hello, Mark Johnson Your car is ready.
               </p>
-              <div
-                className=""
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "15% 40% 40%",
-                  gridColumnGap: "3%",
-                }}
-              >
-                <div className="">
+              <div className="row g-2">
+                <div className="col-lg-2 col-md-3 col-sm-4 col-12">
                   <div className="w-100">
                     <div className="bg-dark rounded-circle p-4 text-center">
                       <h1>68%</h1>
@@ -126,7 +121,7 @@ const ProfileContent = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-100 d-flex flex-column gap-3">
+                <div className="col-lg-5 col-12 d-flex flex-column gap-3">
                   <div className="w-100 card bg-sidebar-color text-light">
                     <div className="card-body d-flex justify-content-between align-items-center">
                       <div>
@@ -146,7 +141,7 @@ const ProfileContent = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-100 d-flex flex-column gap-3">
+                <div className="col-lg-5 col-12 d-flex flex-column gap-3">
                   <div className="w-100 card bg-sidebar-color text-light">
                     <div className="card-body">
                       <p className="date_style mb-3">Efficiency</p>
@@ -164,7 +159,7 @@ const ProfileContent = () => {
             </div>
           </div>
         </div>
-        <div className="col-4">
+        <div className="col-lg-4 col-12">
           <div className="card profile-bg text-light p-2">
             <div className="card-body">
               <h5 className="fw-bold pb-3">Platform Settings</h5>
@@ -273,7 +268,7 @@ const ProfileContent = () => {
             </div>
           </div>
         </div>
-        <div className="col-8">
+        <div className="col-lg-8 col-12">
           <div className="card profile-bg text-light">
             <div className="card-body">
               <h5 className="fw-bold">Projects</h5>
